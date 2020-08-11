@@ -87,3 +87,12 @@ function col(ab,bb){
 
 }
 
+function keyPressed(){
+
+	if (keyCode = 32){
+		Matter.Body.setPosition(stone.body,{x:50,y:550});
+		slingshot.attach(stone.body);
+	}
+	
+}
+
